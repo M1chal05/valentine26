@@ -18,8 +18,16 @@ function movebtn(){
         rndleft = rndleft + nobtn.clientHeight
         nobtn.style.left = rndleft + "px"
     }
+    if(rndleft > 0){
+        rndleft = rndleft - nobtn.clientHeight
+        nobtn.style.left = rndleft + "px"
+    }
     if(rndtop < 0){
         rndtop = rndtop + nobtn.clientHeight
+        nobtn.style.top = rndtop + "px"
+    }
+    if(rndtop > 0){
+        rndtop = rndtop - nobtn.clientHeight
         nobtn.style.top = rndtop + "px"
     }
 
