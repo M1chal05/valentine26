@@ -14,7 +14,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    max-height: 100vh;
+    width: 100vw;
     max-width: 100vw;
     background: #b022c3;
     background: linear-gradient(0deg, rgba(176, 34, 195, 1) 0%, rgba(195, 40, 215, 1) 50%, rgba(253, 45, 59, 1) 100%);
@@ -22,6 +22,7 @@ body{
 
 img{
     max-width: 200px;
+    margin-top: 15px;
 }
 
 h1{
